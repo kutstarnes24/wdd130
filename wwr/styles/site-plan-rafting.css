@@ -36,7 +36,7 @@ body {
   p {
     padding: 10px;
   }
-  
+
   nav {
     background-color: var(--nav-background-color);
   }
@@ -45,6 +45,12 @@ body {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 10px;
+  }
+  
+  nav a:link {
+  }
+  
+  nav a:visited {
   }
   
   nav a:hover {
