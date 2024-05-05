@@ -1,60 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-  }
-  :root {
-    --primary-color: #396e94;
-    --secondary-color: #e7c24f;
-    --accent1-color: #a43312;
-    --accent2-color: #381d2a;
-    --heading-font: 'Poppins', sans-serif;
-    --paragraph-font: 'Roboto', sans-serif;
-    --nav-background-color: #ffffff;
-    --nav-link-color: #000000;
-    --nav-hover-link-color: #396e94;
-    --nav-hover-background-color: #f0f0f0;
-  }
-  
-  body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-  }
-  
-  header {
-    padding: 20px;
-    background-color: var(--secondary-color);
-  }
-  
-  p {
-    padding: 10px;
-  }
 
-  nav {
-    background-color: var(--nav-background-color);
-  }
-  
-  nav a {
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  nav a:link {
-  }
-  
-  nav a:visited {
-  }
-  
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
-  
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+  --heading-font: 'Poppins', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+  --nav-background-color: #ffffff;
+  --nav-link-color: #000000;
+  --nav-hover-link-color: #396e94;
+  --nav-hover-background-color: #f0f0f0;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+
+p {
+  padding: 10px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
