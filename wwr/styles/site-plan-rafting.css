@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+  :root {
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent-color: #a43312;
+    --additional-accent-color: #381d2a;
+    --heading-font: 'Poppins', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    --navigation-bg-color: #ffffff;
+    --navigation-link-color: #000000;
+    --navigation-hover-link-color: #396e94;
+    --navigation-hover-bg-color: #f0f0f0;
+  }
+  
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+  header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+  }
+  
+  p {
+    padding: 10px;
+  }
+  
+  nav {
+    background-color: var(--navigation-bg-color);
+  }
+  
+  nav a {
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-bg-color);
+  }
+  
