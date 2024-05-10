@@ -6,7 +6,6 @@
 }
 
 /* Class Selectors */
-/* Class Selectors */
 .box {
     margin: 1rem;
     padding: 1rem;
@@ -14,14 +13,11 @@
     color: #333;
 }
 
-/* Additional styles for specific elements */
-/* Float profile image to the right */
 img {
     float: right;
     margin-left: 10px;
 }
 
-/* Absolute positioning for overlay */
 aside {
     position: relative;
 }
@@ -32,7 +28,6 @@ aside h2 {
     left: 160px;
 }
 
-/* Existing styles */
 nav {
     background-color: steelblue;
     padding: 10px;
