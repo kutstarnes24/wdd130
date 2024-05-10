@@ -1,98 +1,45 @@
-/* External CSS file: styles/styles.css */
-
 /* Reset CSS */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+* {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* Class Selectors */
-.box {
-    /* Define styles for .box class here */
-}
-
-/* Element Selectors */
-main img {
-    float: right;
-}
-
-aside {
-    /* Define styles for aside element here */
-    position: relative;
-}
-
-aside h2 {
-    /* Define styles for aside h2 element here */
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 5px;
-}
-
-/* Other styles */
-nav {
-    background-color: steelblue;
-    padding: 10px;
-}
-
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
-
-h1 {
-    color: steelblue;
-}
-
-p {
-    padding: 10px;
-}
-
-main {
-    max-width: 840px;
-}
-
-aside {
-    width: 20rem;
+    box-sizing: border-box;
+  }
+  
+  /* Class Selectors */
+  /* Class selector for styling boxes */
+  .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-ul.box {
-    margin: 0;
-    padding: 1rem;
-    background-color: #f9f9f9;
-}
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  /* Other styles */
+  /* Float profile image to the right */
+  main img {
+    float: right;
+  }
+  
+  /* Overlay heading on image within aside */
+  /* Set aside to relative position */
+  aside {
+    position: relative;
+  }
+  
+  /* Position heading absolutely */
+  aside h2 {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+  }
+  
+  /* Additional nav links */
+  nav a:nth-child(5) {
+    /* Styles for LinkedIn link */
+  }
+  
+  nav a:nth-child(6) {
+    /* Styles for Facebook link */
+  }
+  
