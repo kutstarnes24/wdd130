@@ -1,11 +1,9 @@
-/* Universal selector */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Class Selectors */
 .box {
     margin: 1rem;
     padding: 1rem;
@@ -71,6 +69,8 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* class selector */
 
 ul.box {
     margin: 0;
