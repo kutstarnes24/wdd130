@@ -9,6 +9,7 @@
     padding: 1rem;
     background-color: #f0f0f0;
     color: #333;
+    border: 1px solid #ccc;
 }
 
 main img {
@@ -70,10 +71,18 @@ footer {
     text-align: center;
 }
 
-/* class selector */
-
+/* Class selector */
 ul.box {
     margin: 0;
     padding: 1rem;
     background-color: #f9f9f9;
+    color: #333;
+}
+
+nav a[href^="https://www.linkedin.com"] {
+    
+}
+
+nav a[href^="https://www.facebook.com"] {
+    
 }
