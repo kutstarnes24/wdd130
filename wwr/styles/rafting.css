@@ -16,6 +16,7 @@
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -56,12 +57,13 @@ nav a:hover {
 
 .hero {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .hero img {
-  display: block;
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .hero h1 {
@@ -70,18 +72,38 @@ nav a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--secondary-color); 
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
 }
 
 article {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 article img {
   float: right; 
   margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+.sociallinks a {
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.sociallinks a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
