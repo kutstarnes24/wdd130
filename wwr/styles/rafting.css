@@ -39,8 +39,9 @@ header .logo img {
 nav {
   background-color: var(--nav-background-color);
   display: flex;
-  justify-content: flex-end;
-  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
 }
 
 nav a {
