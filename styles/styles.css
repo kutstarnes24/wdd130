@@ -54,6 +54,12 @@ aside {
     text-align: center;
 }
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150;
+}
+
 aside img {
     width: 200px;
     height: auto;
@@ -63,4 +69,18 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+main img {
+float: right
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
