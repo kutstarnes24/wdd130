@@ -14,19 +14,21 @@
             <img src="images/logo.png" alt="Rafting Logo">
         </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <div class="hero">
-            <img src="images/hero.png" alt="Hero Background Image">
-            <h1>Contact WaveThrill Rafting Co.</h1>
-        </div>
+    <div class="hero">
+        <img src="images/hero.png" alt="Hero Background Image">
+        <h1>Contact WaveThrill Rafting Co.</h1>
+    </div>
 
+    <main>
         <section>
             <h2>Contact Information</h2>
             <p>Address: 123 River Rapids Road, Adventure Town, CO 80521</p>
@@ -37,23 +39,25 @@
             </div>
         </section>
 
-        <section>
+        <section class="team">
             <h2>Meet Our Team</h2>
-            <figure>
-                <img src="images/employee1.png" alt="Employee 1">
-                <figcaption>John Doe - Guide Manager</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.png" alt="Employee 2">
-                <figcaption>Jane Smith - Senior Guide</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.png" alt="Employee 3">
-                <figcaption>Emily Johnson - Customer Service</figcaption>
-            </figure>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="images/employee1.png" alt="Employee 1">
+                    <p>John Doe - Guide Manager</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/employee2.png" alt="Employee 2">
+                    <p>Jane Smith - Senior Guide</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/employee3.png" alt="Employee 3">
+                    <p>Emily Johnson - Customer Service</p>
+                </div>
+            </div>
         </section>
 
-        <section>
+        <section class="contact-form">
             <h2>Contact Form</h2>
             <form action="submit_contact_form" method="POST">
                 <label for="name">Name:</label>
