@@ -260,6 +260,11 @@ footer .sociallinks img {
   border-radius: 10px;
 }
 
+.about-image {
+  width: 100%;
+  height: auto;
+}
+
 .team .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
